@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Default_WaterRippleAdvanced_TM
+  m_Shader: {fileID: 4800000, guid: e9dd41d77d2a820499452766c2f9d999, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: c303a9b3939400a4ba697bbb398ce2ac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: f5ffbc55923c87f45a4fc7c664166d51, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Foam:
+        m_Texture: {fileID: 2800000, guid: c798603beb3c1fc4a96620cf6b35cc32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamGradient:
+        m_Texture: {fileID: 2800000, guid: 0a4e00c52776f8a4496b255a3ebd3560, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTex:
+        m_Texture: {fileID: 2800000, guid: a133a690c4b9f014cbc6179a83191248, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShoreTex:
+        m_Texture: {fileID: 2800000, guid: cd460ee4ac5c1e746b7a734cc7cc64dd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - TopHandle: 0
+    - _ApplyOffset: 0
+    - _BottomPos: -2
+    - _CubeMapLevel: 0.2
+    - _Culling: 0
+    - _DEPTHFOG: 0
+    - _Distortion: 0.14
+    - _EdgeBlend: 4
+    - _FOAM: 0
+    - _FaceCulling: 2
+    - _FoamStrength: 0.4
+    - _FresnelBias: 0.18
+    - _FresnelPower: 0.65
+    - _FresnelScale: 0.93
+    - _Glossiness: 0
+    - _HeightOffset: 0
+    - _Metallic: 0
+    - _NormalStrength: 15
+    - _Normals: 0
+    - _OneOrZero: 0
+    - _ReflectionIntensity: 0.8
+    - _ReflectionLevel: 0.54
+    - _SPECULAR: 0
+    - _Shininess: 200
+    - _Smoothness: 0.8
+    - _UnderWaterOpacity: 0.6
+    - _WaterDepth: 1.7
+    - _WaveHeight: 1
+    - _WaveHeightScale: 1
+    m_Colors:
+    - _BumpDirection: {r: 1, g: 30, b: 20, a: -20}
+    - _BumpTiling: {r: 0.04, g: 0.04, b: 0.04, a: 0.08}
+    - _DeepWaterColor: {r: 0.5882353, g: 0.74509805, b: 1, a: 1}
+    - _Foam: {r: 0.1, g: 15.65, b: 0.08, a: 1.75}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ReflectionColor: {r: 0.54, g: 0.99, b: 0.54310346, a: 0.5}
+    - _ShallowWaterColor: {r: 0.7764706, g: 0.84313726, b: 0.9764706, a: 1}
+    - _SpecularColor: {r: 0.2205882, g: 0.2205882, b: 0.2205882, a: 1}
+    - _WorldLightDir: {r: -0.07, g: 0.15, b: -1, a: -0.32}

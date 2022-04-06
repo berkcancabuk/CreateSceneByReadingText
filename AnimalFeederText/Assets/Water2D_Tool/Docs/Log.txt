@@ -1,0 +1,98 @@
+Water 2D Tool v1.12
+Min Unity Version - 2017.4
+
+Release Notes:
+
+v1.12:
+- Fixes:
+	- Fixed a bug that caused the top mesh back edge Y axis offset to be applied incorrectly.
+
+v1.11:
+- Fixes:
+	- Fixed a bug that caused the inspector to lag when selecting a water prefab in the Project window.
+
+- Improvements:
+	- Added support for URP.
+	- Added the ability to offset the top mesh back edge Y axis position.
+
+v1.10:
+- Fixes:
+	- Fixed a bug where Physics2D was used instead of Physics;
+	- The top mesh in the LWRP is now displayed correctly in the editor.
+
+- Improvements:
+	- Added the option to set the Filter Mode for the Render Texture in the GPU based water objects.
+	- Added Shader Graph templates for the GPU based water.
+
+v1.9:
+- Fixes:
+	- Fixed a bug that made the collider layer mask work incorrectly.
+	
+- Improvements:
+	- Added support for Unity 2019.1 and 2019.2 LWRP
+
+v1.8:
+- Fixes:
+	- Fixed a bug that resulted in the normal's of the front mesh not facing the correct direction.
+	- Fixed Screen position out of view frustum error when the camera is too far away from the water.
+	- Prefab overrides are no longer reset at run time.
+
+- Improvements:
+	- Water 2D Tool folder can now be moved to a sub-folder.
+
+v1.7:
+- Fixes:
+	- Removed the option to disable the 2.5D water when a GPU based water object is created.
+	- Fixed a issue with the third wave in the GPU based water ambient waves not working.
+	- Removed absolute methods in unity 2018.3 and newer.
+
+- Improvements:
+	- Improved the documentation.
+
+v1.6:
+- Fixes:
+	- Replaced amplitude fade distance in the GPU based water with amplitude fade start and end point position.
+	- Fixed a bug that generated an error when a dynamic obstruction object was destroyed.
+	- Fixed a bug that generated an error when a floating object was destroyed.
+	- Fixed a bug that generated an error when the editor camera was in isometric mode.
+
+v1.5:
+- New GPU based ripple water.
+	*Dynamic water size with no ripple stretching.
+	*Multiple ways to interact with the Water.
+	*Ambient waves.
+	*Dynamic obstructions.
+	*Texture obstructions.
+	*Create texture obstruction inside Unity.
+	*Rain simulation.
+	*Height animation.
+	*Large water areas.
+
+- Other new features:
+	- Performance improvements.
+	- Support for prefabs.
+	- Collider layer mask.
+	- Partial support for ray cast based character controllers.
+	- On exit player ripple, particle system and sound effect.
+	- Manually generate ripples by calling GenerateRippleAtPosition().
+	- Added support for Capsule Collider 2D.
+
+v1.4:
+-New in Water 2D Tool 1.2:
+	- Added 2.5D water option.
+	- Added water flow.
+	- Added per object particle system instantiation option.
+	- Improved the object interaction with the water waves.
+
+	- Added compatibility with newer versions of unity.
+	- Fixed a small bug.
+
+v1.3:
+	- An error is no longer generated in Unity 5.4.
+	- Added a couple of new features. 
+
+
+v1.1:
+	- Added support for 3D colliders.
+	- Code namespace.
+	- Added new features.

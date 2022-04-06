@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 0a4b3afd1001c8f49bcf3afd749e4b38
+labels:
+- 2.5D
+- 2D
+- 2DWater
+- Animation
+- Buoyancy
+- Corgi
+- GPU
+- Physics
+- Ripple
+- Water
+- Water2D
+- WaterAnimation
+timeCreated: 1509794213
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

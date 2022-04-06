@@ -1,0 +1,1 @@
+The Examples folder contains assets that are used in the demo scenes and they do not effect in any way the features of the plugin. You can safely delete the Examples folder.

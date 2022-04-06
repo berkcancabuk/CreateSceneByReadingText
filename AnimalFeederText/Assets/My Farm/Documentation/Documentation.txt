@@ -1,0 +1,48 @@
+READ ME
+-------
+Asset: My Farm 
+Version: 1.1
+Date: 22/06/2020 
+
+- This asset includes low poly 3D models.
+- This asset includes single albedo texture for all objects.
+- This asset includes 2 glass materials for Cars & buildings. 
+- This asset includes 4 Small Maps & 1 Full Map scenes.
+
+- This asset includes  12 Females, 11 Males and 2 Plants Rigged and Animated.
+- Female :- 
+           a. Run 
+           b. Walk
+           c. Idle
+- Male :-
+           a. Run 
+           b. Walk
+           c. Sit
+           d. Idle
+- Sunflower & Corn :-
+           a. Idle  
+
+- This asset includes 24 Vehicles with tyre groups and Boat with Oars.
+- Total Objects = 295
+- Total Number Of Polys = 187208
+- Total Number Of Verts = 106075
+- Texture Size = 42.4 KB
+- Texture Type Of File = PNG (2048*2048)
+- Total Number Of Folders = 10
+
+Objects :-
+ 
+1. Animals and Birds = 28 
+2. Farm objects      = 79 
+3. Buildings 	     = 20
+4. Characters        = 36
+5. Plants            = 12
+6. Roads             = 28
+7. Rocks and Stones  = 21
+8. Trees             = 22
+9. Crops             = 18
+10.Vehicles and      = 31
+   Accessories
+11. Animated         = 23
+
+Copyright 2020, Innovana Techlabs Limited. All rights reserved.

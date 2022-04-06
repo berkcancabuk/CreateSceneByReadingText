@@ -1,0 +1,448 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1205443794104882}
+  m_IsPrefabParent: 1
+--- !u!1 &1100229016880504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4554089458140094}
+  - component: {fileID: 23839122157100900}
+  - component: {fileID: 33980351028717502}
+  - component: {fileID: 114759182039584844}
+  m_Layer: 4
+  m_Name: LitRippleShader_TM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1205443794104882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4660341205672948}
+  - component: {fileID: 23086399094584204}
+  - component: {fileID: 33059182606995882}
+  - component: {fileID: 114147545920890470}
+  - component: {fileID: 114775776000381976}
+  - component: {fileID: 114503814827453248}
+  - component: {fileID: 61834155392629124}
+  m_Layer: 4
+  m_Name: LitRippleShader_FM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4554089458140094
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1100229016880504}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4660341205672948}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4660341205672948
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205443794104882}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4554089458140094}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23086399094584204
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205443794104882}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f81a9d27772e82043876f4c55da88d4c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 1
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23839122157100900
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1100229016880504}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 7cacc8ea8419dd94a9025e440d4f6a97, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 1
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33059182606995882
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205443794104882}
+  m_Mesh: {fileID: 4300000, guid: d6da940e07a2be9448901260fd320773, type: 2}
+--- !u!33 &33980351028717502
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1100229016880504}
+  m_Mesh: {fileID: 4300000, guid: 6939695cdcff85944a3f6d43972e242b, type: 2}
+--- !u!61 &61834155392629124
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205443794104882}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15, y: 6}
+  m_EdgeRadius: 0
+--- !u!114 &114147545920890470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205443794104882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea03457dd2337d4eabc8643ca6a7a46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boundsAndNormals: 1
+  showVisuals: 1
+  showCollider: 1
+  showInfo: 1
+  showCubeWater: 1
+  unitsPerUV: {x: 5.12, y: 5.12}
+  unitsPerUV2: {x: 5.12, y: 5.12}
+  rUnitsPerUV: {x: 0.1953125, y: 0.1953125}
+  rUnitsPerUV2: {x: 0.1953125, y: 0.1953125}
+  xSegments: 60
+  zSegments: 40
+  width: 15
+  height: 6
+  length: 10
+  pixelsPerUnit: 100
+  segmentsPerUnit: 4
+  showMesh: 1
+  createCollider: 1
+  colliderYAxisOffset: 0
+  handlesPosition:
+  - {x: 0, y: 3, z: 0}
+  - {x: 0, y: -3, z: 0}
+  - {x: -7.5, y: 0, z: 0}
+  - {x: 7.5, y: 0, z: 0}
+  - {x: 0, y: 3, z: 10}
+  curentWaterArea: 90
+  use3DCollider: 0
+  overlapingSphereZOffset: 0.5
+  boxColliderZSize: 1
+  handleScale: 1
+  cubeWater: 1
+  waterLength: 10
+  frontMeshVertsCount: 122
+  waterHeight: 6
+  waterWidth: 15
+  useHandles: 1
+  prevSurfaceVertsCount: 61
+  xVerts: 61
+  yVerts: 2
+  zVerts: 41
+  squareSegments: 1
+  showMeshInfo: 1
+  renderTextureWidth: 180
+  renderTextureHeight: 120
+  water2DRippleScript: 1
+  quadMesh: 0
+  zSegmentsCap: 0
+  zSegmentsSize: 1
+  topMeshGameObject: {fileID: 1100229016880504}
+  boxColliderCenterOffset: {x: 0, y: 0, z: 0}
+  boxColliderSizeOffset: {x: 0, y: 0, z: 0}
+  prefabInstanceIsCreated: 0
+  topMeshYOffset: 0
+--- !u!114 &114503814827453248
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205443794104882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c96085557143b5a408415d70dc045d8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showWaterRipple: 1
+  showRippleSourcesList: 1
+  showPlayer: 1
+  showMouse: 1
+  showRain: 1
+  showDynamicObjects: 1
+  showAmbiantWaves: 1
+  playerOnExitRipplePos: {x: 0, y: 0, z: 0}
+  rainTimeCounter: 0
+  heightMapTimeCounter: 0
+  interactionsTimeCounter: 0
+  playerOnExitRipple: 0
+  waveHeightScale: 1
+  amplitude1: 0.02
+  amplitude2: 0.01
+  amplitude3: 0.015
+  waveLength1: 2
+  waveLength2: 0.5
+  waveLength3: 1
+  phaseOffset1: 1
+  phaseOffset2: 1
+  phaseOffset3: 2
+  amplitudeFadeStart: 0.2
+  amplitudeFadeEnd: 0.7
+  ambientWaves: 0
+  amplitudeZAxisFade: 0
+  heightUpdateMapTimeStep: 0.015
+  bicubicResampling: 0
+  rippleSourcesList:
+  - {fileID: 0}
+  rippleSources: 0
+  rippleWaterFPSCap: 60
+  rainDrops: 0
+  rainDropRadius: 0.25
+  rainDropStrength: -0.2
+  rainDropFrequency: 20
+  waterDamping: 0.05
+  mouseRadius: 0.2
+  mouseStregth: -0.1
+  rtPixelsToUnits: 12
+  obstructionTexture: {fileID: 0}
+  mouseInteraction: 0
+  playerRippleRadius: 0.5
+  playerRippleStrength: -0.08
+  playerVelocityFilter: 0.5
+  playerRippleXOffset: 0
+  objectRippleRadius: 0.5
+  objectRippleStrength: -0.04
+  objectRadiusScale: 1
+  objectVelocityFilter: 0.5
+  objectXAxisRippleOffset: 0.5
+  obstructionLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  obstructionType: 0
+  rippleSimulationUpdate: 1
+  rtFilterMode: 2
+  drawBothSides: 0
+  strengthScale: 6
+  fixedRadius: 1
+--- !u!114 &114759182039584844
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1100229016880504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6971ca9c426d254ca343b7eb74a8b26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reflectionQuality: 10
+  reflectionMask:
+    serializedVersion: 2
+    m_Bits: 4294967279
+  clearColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  reflectSkybox: 1
+  UpdateSceneView: 1
+  clipPlaneOffset: 0
+  reflectionRenderDistance: 1000
+--- !u!114 &114775776000381976
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205443794104882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39104e7689a801045a284cca0676d421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showSpringProperties: 1
+  showfloatingBuoyantForce: 1
+  showAnimation: 1
+  showFlow: 1
+  showMiscellaneous: 1
+  showSurfaceWaves: 1
+  showPlayerSettings: 1
+  buoyantForceMode: 1
+  surfaceWaves: 0
+  waterType: 0
+  animationMethod: 0
+  clippingMethod: 0
+  flowDirection: 3
+  sineWavesType: 0
+  characterControllerType: 0
+  collisionDetectionMode: 0
+  playerOnExitVelocity: 0.2
+  playerOnExitRipple: 0
+  playerOnExitPSAndSound: 0
+  sineAmplitudes: []
+  sineStretches: []
+  phaseOffset: []
+  defaultWaterAreaOffset: 0
+  sineWaves: 4
+  springConstant: 0.02
+  damping: 0.04
+  spread: 0.03
+  floatHeight: 3
+  bounceDamping: 0.15
+  forcePositionOffset: {x: 0, y: 0, z: 0}
+  collisionVelocityScale: 0.0125
+  topEdge: {fileID: 0}
+  bottomEdge: {fileID: 0}
+  leftEdge: {fileID: 0}
+  rightEdge: {fileID: 0}
+  particleS: {fileID: 0}
+  constantWaterArea: 0
+  waterDisplacement: 0
+  animateWaterArea: 0
+  waveSpeed: 8
+  velocityFilter: -2
+  waterDensity: 1
+  polygonCorners: 8
+  maxDrag: 500
+  maxLift: 200
+  dragCoefficient: 0.4
+  liftCoefficient: 0.25
+  timeStep: 0.5
+  maxAmplitude: 0.1
+  minAmplitude: 0.01
+  maxStretch: 2
+  minStretch: 0.8
+  maxPhaseOffset: 0.1
+  minPhaseOffset: 0.02
+  maxVelocity: 0.1
+  minVelocity: -0.1
+  forceScale: 4
+  liniarBFDragCoefficient: 0.1
+  linearBFAbgularDragCoefficient: 0.01
+  interactionRegion: 1
+  waterLineCurrentWorldPos: {x: 0, y: 0, z: 0}
+  splashSound: {fileID: 0}
+  playerBoundingBoxSize: {x: 1, y: 1}
+  playerBoundingBoxCenter: {x: 0, y: 0}
+  playerBuoyantForceScale: 0.5
+  showPolygon: 0
+  showForces: 0
+  neighborVertVelocityScale: 0.5
+  sineWaveVelocityScale: 0.05
+  overlapSphereRadius: 0.05
+  springSimulation: 1
+  topEdgeYOffset: 0
+  bottomEdgeYOffset: 0
+  leftEdgeXOffset: 0
+  rightEdgeXOffset: 0
+  particleSystemPosOffset: {x: 0, y: 0, z: 0}
+  particleSystemSortingLayerName: Default
+  particleSystemOrderInLayer: 0
+  meshSegmentsPerWaterLineSegment: 4
+  showClippingPlolygon: 0
+  waterFlow: 0
+  flowAngle: 0
+  waterFlowForce: 5
+  useAngles: 0
+  waveAmplitude: 0.1
+  waveStretch: 1
+  wavePhaseOffset: 0.2
+  randomValues: 1
+  particleSystemSorting: 0
+  rippleWidth: 1
+  playerOnEnterVelocity: -0.2
+  collisionLayers:
+    serializedVersion: 2
+    m_Bits: 4294967287
+  raycastDistance: 0.05
+  interactionTime: 5
